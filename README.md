@@ -18,17 +18,17 @@ Note: in order for you to use, you will have to get an access token from https:/
 ![screenshot1 - base look](https://raw.githubusercontent.com/NikhilTanni/tnikify-timeline-map-tool/main/screenshots/sc1.JPG)
 
 ### Themes changing
-![screenshot2 - themes](https://raw.githubusercontent.com/NikhilTanni/tnikify-timeline-map-tool/main/screenshots/sc1.JPG)
+![screenshot2 - themes](https://raw.githubusercontent.com/NikhilTanni/tnikify-timeline-map-tool/main/screenshots/sc2.JPG)
 
 ### seek to year
 
 double click on displayed year to open the prompt
-![screenshot3 - input year](https://raw.githubusercontent.com/NikhilTanni/tnikify-timeline-map-tool/main/screenshots/sc1.JPG)
+![screenshot3 - input year](https://raw.githubusercontent.com/NikhilTanni/tnikify-timeline-map-tool/main/screenshots/sc3.JPG)
 
 ### draw line across pins on map
 
 check the checkbox beside the locations to put a line (note: order of check matters)
-![screenshot4 - line on map](https://raw.githubusercontent.com/NikhilTanni/tnikify-timeline-map-tool/main/screenshots/sc1.JPG)
+![screenshot4 - line on map](https://raw.githubusercontent.com/NikhilTanni/tnikify-timeline-map-tool/main/screenshots/sc4.JPG)
 
 ### API response data - filter
 
@@ -38,7 +38,7 @@ ex: http://<serverURL>/timeline/filter/time?start=1600-01&end=1700-01
 
 Note that minimum yyyy-mm is mandatory then provide as much precision as you want in timestamp format: YYYY-MM-DDTh:i:s
 
-![screenshot5 - API response data](https://raw.githubusercontent.com/NikhilTanni/tnikify-timeline-map-tool/main/screenshots/sc1.JPG)
+![screenshot5 - API response data](https://raw.githubusercontent.com/NikhilTanni/tnikify-timeline-map-tool/main/screenshots/sc5.JPG)
 
 # Contribution
 
