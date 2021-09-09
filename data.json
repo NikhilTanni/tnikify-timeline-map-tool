@@ -1,0 +1,1 @@
+{"config": {"datafolder": "data"}, "files": {"maratha": {"type": "group", "file": "maratha.json"}, "testdata": {"type": "group", "file": "testdata.json"}}, "unextfiles": {"maratha copy": "maratha copy.json"}}

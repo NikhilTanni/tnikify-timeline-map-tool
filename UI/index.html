@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="/assets/leaflet/leaflet.css">
+    <title>Timeline</title>
+</head>
+<body>
+    <div class="container">
+        <div class="seeker subcontainer">
+            <fieldset>
+                <legend>Timeline Slider</legend>
+                <div class="slidecontainer">
+                    <div id="slider-range"></div>
+                    <!-- <input type="range" min="-5000" max="2050" step="1" value="2021" class="slider" id="timelineRange"> -->
+                    <p>You are point year: <span id="timelinestart"></span> to <span id="timelineend"></span></p>
+                </div>
+            </fieldset>
+            <hr>
+            <h2>Events</h2>
+            <table id="event-list" border="1" width="100%"></table>
+            
+        </div>
+        <div class="subcontainer" id="map"></div>
+        <div class="subcontainer mapfilters">
+            <h6>Map Controls</h6>
+            <p>
+                <div class="filter">
+                    <table width="100%" border="1">
+                        <tr>
+                            <td><input type="checkbox" name="autoMoveMap" id="filter_autoMoveMap" checked> Auto Move Map</td>
+                            <td><input type="checkbox" name="autoZoomMap" id="filter_autoZoomMap" checked> Auto Zoom Map</td>
+                        </tr>
+                    </table>
+                </div>
+            </p>
+        </div>
+        <div class="controls subcontainer">
+            <table>
+                <tr>
+                    <td>Theme:</td>
+                    <td>
+                        <button id="Default" onclick="changeTheme(this.id)">Default</button>
+                    </td>
+                    <td>
+                        <button id="NatgeoMap" onclick="changeTheme(this.id)">NatgeoMap</button>
+                    </td>
+                    <td>
+                        <button id="Toner" onclick="changeTheme(this.id)">Toner</button>
+                    </td>
+                    <td>
+                        <button id="SmoothDark" onclick="changeTheme(this.id)">SmoothDark</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery-ui.js"></script>
+    <script src="/assets/leaflet/leaflet.js"></script>
+    <script src="/assets/js/mapscript.js"></script>
+    <script src="/assets/js/utils.js"></script>
+</body>
+</html>

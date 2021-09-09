@@ -1,0 +1,18 @@
+{
+  "event": {
+    "location": {
+      "geo": {
+        "default": {
+          "lat": 0,
+          "lon": 0
+        }
+      }
+    },
+    "time": {
+      "default": {
+        "start": "human-readable-time",
+        "end": "if-applicable"
+      }
+    }
+  }
+}
